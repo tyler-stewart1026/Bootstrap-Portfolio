@@ -1,0 +1,19 @@
+h1 {
+    font-size: 30px;
+}
+
+.nav-link {
+    font-size: 25px;
+    color: black;
+}
+
+li {
+    border-right: 1px solid black;
+}
+li:last-child {
+    border-right: none;
+}
+
+.navbar {
+    border-bottom: 2px solid black;
+}
