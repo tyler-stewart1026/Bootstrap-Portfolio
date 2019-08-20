@@ -16,4 +16,11 @@ li:last-child {
 
 .navbar {
     border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+    display: block;
+}
+
+.nav-item {
+    color: black;
 }
