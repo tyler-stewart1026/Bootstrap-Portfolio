@@ -15,7 +15,7 @@
 <body background=".//assets/images/prism.png">
     <!--Nav Bar and Name-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0rem 1rem">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand"></a>
             <h1 style="padding:20px; background-color:#353535; color:black;">Tyler Stewart</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -37,23 +37,33 @@
             </div>
         </div>
     </nav>
-<!--Form-->
+    <!--Form-->
     <form>
-        <div class="container mt-3">
+        <div class="container mt-3" style="display: block; background-color: white;">
+            <div class="row mt3">
+                <div class="col-md-12">
+                    <h1 style="border-bottom: 2px solid black; margin-bottom: 20px; margin-top: 10px;">
+                        Contact Me
+                    </h1>
+                </div>
+            </div>
             <div class="form-group">
-                <label for="exampleFormControlSelect1">Email</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe"
+                <label for="exampleFormControlSelect1" style="margin-bottom: 10px;">Email</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="form-group" style="margin-top: 10px;">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleFormControlInput1" style="margin-bottom: 10px;">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                <label for="exampleFormControlTextarea1" style="margin-bottom: 10px;">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
+                    rows="3"></textarea>
             </div>
-
+            <button type="button" class="btn btn-dark"
+                style="margin-bottom: 20px; vertical-align: middle"><span>Submit</span></button>
         </div>
+
     </form>
 
     <!--Footer-->

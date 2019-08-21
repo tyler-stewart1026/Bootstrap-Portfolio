@@ -32,3 +32,24 @@ li:last-child {
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
+
+.btn .btn-dark{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #353535;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .col-md-6 img {
+      width: 200px;
+      height: 200px;
+      
+  }
