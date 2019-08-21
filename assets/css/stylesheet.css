@@ -1,5 +1,7 @@
 body {
     font-family: 'Merriweather', serif;
+    letter-spacing: 1.5px;
+    font-size: 20px;
 }
 
 h1 {
@@ -48,8 +50,19 @@ li:last-child {
     margin: 5px;
   }
 
-  .col-md-6 img {
+  .col-md-3 img {
       width: 200px;
       height: 200px;
-      
+      margin: 10px 10px;
   }
+  .col-md-3 p {
+    width: 200px;
+    background-color: rgba(160, 160, 160, .8);
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 13px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
