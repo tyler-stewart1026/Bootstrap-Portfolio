@@ -12,80 +12,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body background=".//assets/images/prism.png">
+<body background=".//assets/images/grey_wash_wall.png">
+
     <!--Navbar and Name-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0rem 1rem">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ml-auto mb-5">
         <div class="container">
-            <a class="navbar-brand"></a>
-            <h1 style="padding:20px; background-color:#353535; color:black;">Tyler Stewart</h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="name">
+                <h1>
+                    Tyler Stewart
+                </h1>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav" style="color: black;">
+            <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
+                    <div class="blockDiv">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                    </div>
+                    <div class="blockDiv">
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                    </div>
+                    <div class="blockDiv">
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>
     </nav>
+
+
     <div class="container mt-3">
 
-        <div class="jumbotron" style="padding: 2rem 2rem;">
+        <div class="jumbotron">
             <div class="row mb-5">
-                <div class="col-md-12 col-sm-12 col-lg-12">
+                <div class="col-md-12">
                     <div>
-                        <h1 style="border-bottom: solid 2px black">
+                        <h2>
                             About Me
-                        </h1>
+                        </h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-3 col-lg-3">
+                <div class="col-md-3">
                     <img src=".//assets/images/My-pic.png" class="img-thumbnail img-fluid" alt="My-pic">
                 </div>
-                <div class="col-md-9 col-sm-9 col-lg-9">
-                    <p class="lead">My name is Tyler Stewart, I'm 24(Almost 25) years old! I was born in Roosvelt, Utah. Some
-                        of my hobbies include all things outdoors, shooting, camping, boating/kayaking. I just bought my
-                        first home in Murray, Utah. I work for as company named Cookie Composites building skydiving
-                        equipment, mostly helmets. I own 5 birds! One Green-Cheek Conure, 2 Cockatiels, and 2
-                        Indian-Ringnecks. I'm Engaged(newly) to my beautiful Fiancée, whom I've been dating for 3 years
-                        this October.
-                        <br>
-                        <br>
+                <div class="col-md-9">
+                    <p>My name is Tyler Stewart, I'm 24(Almost 25) years old! I was born in Roosvelt, Utah.
+                        Some of my hobbies include all things outdoors, shooting, camping, boating/kayaking. I just
+                        bought my first home in Murray, Utah. I work for as company named Cookie Composites building
+                        skydiving
+                        equipment, mostly helmets. I own five birds! One Green-Cheek Conure, two Cockatiels, and two
+                        Indian-Ringnecks. I'm Engaged(newly) to my beautiful Fiancée, whom I've been dating for three
+                        years this October.
+                    </p>
+                    <br>
+                    <p>
                         I grew up in Vernal, Utah up until I moved to Reno, Nevada where I lived until age 15 when I
-                        moved back to Salt Lake City. I've lived here ever since and I have enjoyed my time here. I do
-                        plan on moving away and travelling the world once I'm able!
-
+                        moved back to Salt Lake City. I've lived here ever since and I have enjoyed my time here. I
+                        do plan on moving away and travelling the world once I'm able!
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <!--Footer-->
-    <nav class="navbar fixed-bottom navbar-dark bg-dark mb-0" style="padding: 0rem 1rem; color: black;">
-        <a class="navbar-brand" style="padding: 20px;">Copyright&copy;</a>
+    <nav class="navbar fixed-bottom navbar-light">
+        <p class="navbar-brand mx-auto">Copyright&copy;</p>
     </nav>
-
     <!--jpopper, jquery, and js links-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

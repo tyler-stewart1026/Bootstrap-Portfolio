@@ -2,67 +2,50 @@ body {
     font-family: 'Merriweather', serif;
     letter-spacing: 1.5px;
     font-size: 20px;
+    color: black;
 }
 
 h1 {
+    padding:15px; 
+    background-color:#800000;  
+    color:black;
     font-size: 30px;
 }
 
-.nav-link {
+h2 {
+    border-bottom: solid 2px #800000;
+    color: #800000;
     font-size: 25px;
-    color: black;
 }
 
-li {
-    border-right: 1px solid black;
+.jumbotron {
+    background-color: white;
+    padding: 2rem 2rem;
 }
-li:last-child {
-    border-right: none;
+
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    padding: 0rem 1rem;
+}
+
+.blockDiv {
+    background-color: #800000;
+    padding:12px; 
 }
 
 .navbar {
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    text-align: center;
-    display: block;
+    border-radius: 4px;
 }
 
-.nav-item {
+.fixed-bottom {
+    padding: 0.5rem 1rem;
     color: black;
+    background-color: #800000;
 }
 
+#navtext {
+    padding: 20px;
+    text-align: center;
+}
 .navbar-light .navbar-nav .nav-link {
     color: black;
-}
-
-.btn .btn-dark{
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #353535;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 20px;
-    padding: 0px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-
-  .col-md-3 img {
-      width: 200px;
-      height: 200px;
-      margin: 10px 10px;
-  }
-  .col-md-3 p {
-    width: 200px;
-    background-color: rgba(160, 160, 160, .8);
-    text-align: center;
-    padding: 12px;
-    font-weight: bold;
-    position: absolute;
-    bottom: 13px;
-    margin-left: 10px;
-    border-radius: 4px;
 }
